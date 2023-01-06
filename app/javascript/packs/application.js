@@ -9,6 +9,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap"
 import "custom/menu"
+import "custom/image_upload"
 require("jquery")
 
 Rails.start()
