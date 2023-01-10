@@ -11,5 +11,8 @@ module SampleApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
     config.active_storage.variant_processor = :mini_magick
+
+    # Include the authenticity token in remote forms.
+    config.action_view.embed_authenticity_token_in_remote_forms = true
   end
 end
